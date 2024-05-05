@@ -30,6 +30,9 @@ Originally based on XMRig with changes that allow mining WEB.
 
 ## Usage
 
+In this version, the donate function has been reduced to zero when compiled, the console will still show 5%, but it will be zero.
+This means you can use the json config, with no --donate switch as required in a straight script.
+
 ### Options
 ```
   -o, --url=URL            URL of mining server
